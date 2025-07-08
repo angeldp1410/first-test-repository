@@ -1,4 +1,12 @@
 #Escribir un programa que almacene la cadena de caracteres contraseña en una variable,
 #pregunte al usuario por la contraseña hasta que introduzca la contraseña correcta.
 
-pasword = input('Ingrese su contraseña porfavor')
+pasword = 'papugit'
+
+text_input = input('Por favor ingrese su contraseña')
+
+
+
+while text_input != pasword:
+    print('Ingrese su contraseña porfavor')
+    
