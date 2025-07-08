@@ -1,5 +1,7 @@
-#Escribir un programa que almacene la cadena de caracteres contraseña en una variable,
-#pregunte al usuario por la contraseña hasta que introduzca la contraseña correcta.
+#Escribir un programa que almacene la cadena de caracteres contraseña y también usuario
+#cada una en sus respectivas variables, para que después,
+#pregunte al usuario por la contraseña y el usuario hasta que introduzca
+#la contraseña correcta y usuario correcta.
 
 pasword = 'papugit'
 
