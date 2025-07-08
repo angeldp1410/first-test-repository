@@ -3,13 +3,16 @@
 #pregunte al usuario por la contraseña y el usuario hasta que introduzca
 #la contraseña correcta y usuario correcta.
 
+user = 'papupro'
 password = 'papugit'
-user = 'apupro'
 
-user_input = input('Ingrese su usuario')
-password_input = input('Ingrese su contraseña')
 
-while password_input != password and user != user_input:
-    user_input = input('Ingrese su usuario')
-    password_input = input('Ingrese su contraseña')
+user_input = input('Ingrese su usuario: ')
+password_input = input('Ingrese su contraseña: ')
+
+while password_input != password or user != user_input:
+    user_input = input('Ingrese su usuario: ')
+    password_input = input('Ingrese su contraseña: ')
+    
+print('Usuario y contraseña correcta')
 
