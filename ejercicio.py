@@ -8,5 +8,6 @@ text_input = input('Por favor ingrese su contraseña')
 
 
 while text_input != pasword:
-    print('Ingrese su contraseña porfavor')
+    text_input = input('Por favor ingrese su contraseña')
     
+print('Contraseña correcta :)')
