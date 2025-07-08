@@ -1,22 +1,33 @@
-#Escribir un programa que almacene la cadena de caracteres contraseña en una variable,
-#pregunte al usuario la contraseña y al alcanzar los 3 intentos este se bloquee.
+#Escribir un programa que almacene la cadena de caracteres contraseña y también usuario
+#cada una en sus respectivas variables, para que después,
+#pregunte al usuario por el usuario y la contraseña y cuando alcanze los 3 intentos este 
+#se bloquee.
 
-pasword = 'papugit'
+user = 'papupro'
+password = 'papugit'
 sentinel = 1
 
-text_input = input('Por favor ingrese su contraseña: ')
 
-while text_input != pasword:
+user_input = input('Ingrese su usuario: ')
+password_input = input('Ingrese su contraseña: ')
+
+while password_input != password or user != user_input:
+    
+
     sentinel += 1
     
     if sentinel > 3:
         print('Contraseña incorrecta :(')
         break
+    user_input = input('Ingrese su usuario: ')
+    password_input = input('Ingrese su contraseña: ')
     
-    text_input = input('Por favor ingrese su contraseña: ')
+    
     
 if sentinel <= 3:
-        print('Contraseña correcta :)')
+        print('Usuario y contraseña correcta')
+
+
     
     
        
