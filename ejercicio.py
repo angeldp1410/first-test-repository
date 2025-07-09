@@ -17,7 +17,7 @@ while password_input != password or user != user_input:
     sentinel += 1
     
     if sentinel > 3:
-        print('Contraseña incorrecta :(')
+        print('Usuario y contraseña incorrecta :(')
         break
     user_input = input('Ingrese su usuario: ')
     password_input = input('Ingrese su contraseña: ')
@@ -25,7 +25,7 @@ while password_input != password or user != user_input:
     
     
 if sentinel <= 3:
-        print('Usuario y contraseña correcta')
+        print('Usuario y contraseña correcta :)')
 
 
     
